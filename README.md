@@ -59,7 +59,25 @@ pip install -r requirements.txt
 - Pandas
 - NLTK
 - Jupyter Notebook
+
+# 🔑 Kaggle API Setup
+
+This project uses datasets hosted on Kaggle. To access them, you’ll need to configure the Kaggle API:
+
+1. **Get your Kaggle API key**
+   - Go to [Kaggle](https://www.kaggle.com/) and log in.
+   - Click on your profile picture → *Account*.
+   - Scroll down to the **API** section and click **Create New API Token**.
+   - This will download a file called `kaggle.json`.
+
+2. **Place the file in the project folder**
+   - Move the downloaded `kaggle.json` file into the root of this project (`movie_review_analysis/`).
+
+3. **Install Kaggle CLI**
+   ```bash
+   pip install kaggle
+   ```  
   
   
   
-  
+
