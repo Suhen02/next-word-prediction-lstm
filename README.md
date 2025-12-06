@@ -1,8 +1,8 @@
-﻿# 🧠 Next Word Prediction using LSTM
+﻿# Next Word Prediction using LSTM
 A deep learning model that predicts the next word in a sequence using LSTM-based language modeling.
 This project uses a Sherlock Holmes text corpus and demonstrates complete NLP preprocessing, tokenization, model training, and prediction.
 
-# 🚀 Features
+# Features
 
 - Preprocessing & cleaning of raw text
 - Tokenization + word-to-index mapping
@@ -11,7 +11,7 @@ This project uses a Sherlock Holmes text corpus and demonstrates complete NLP pr
 - Model training, evaluation, and inference
 - Saved tokenizer + trained model for deployment
 
-# 📦 Installation
+# Installation
 ##### 1️⃣ Clone the repository
  ```
  git clone https://github.com/Suhen02/next-word-prediction-lstm.git
@@ -52,6 +52,25 @@ pip install -r requirements.txt
 ##### 5️⃣ Model Training
 - The model learns to predict the next word based on previous 3 words.
 
+##### Prediction Example
+- Input
+  ```
+   predict(model, tokenizer, "have seldom heard")
+  ```
+- Output
+   ```
+   "anything"
+   ```
+
+# Model Performance
+The Deep LSTM model achieved:
+
+- **94% training accuracy**
+- Strong next-word prediction capability on the Sherlock Holmes corpus
+- Stable learning with minimal overfitting due to dropout and multi-layer LSTM design
+
+  
+
 # Tech Stack
 - Python
 - TensorFlow / Keras
@@ -80,4 +99,5 @@ This project uses datasets hosted on Kaggle. To access them, you’ll need to co
   
   
   
+
 
