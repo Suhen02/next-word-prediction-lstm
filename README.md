@@ -61,7 +61,17 @@ pip install -r requirements.txt
    ```
    "anything"
    ```
-
+## Model Summary
+```
+Layer (type)         Output Shape      Param #
+-------------------------------------------------
+Embedding            (None, 3, 100)     ...
+LSTM                 (None, 3, 256)     ...
+Dropout              (None, 3, 256)     ...
+LSTM                 (None, 256)        ...
+Dense                (None, 256)        ...
+Dense                (None, vocab_size) ...
+```
 # Model Performance
 The Deep LSTM model achieved:
 
@@ -70,7 +80,6 @@ The Deep LSTM model achieved:
 - Stable learning with minimal overfitting due to dropout and multi-layer LSTM design
 
   
-
 # Tech Stack
 - Python
 - TensorFlow / Keras
@@ -99,5 +108,6 @@ This project uses datasets hosted on Kaggle. To access them, you’ll need to co
   
   
   
+
 
 
