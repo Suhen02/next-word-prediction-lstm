@@ -105,9 +105,12 @@ This project uses datasets hosted on Kaggle. To access them, you’ll need to co
    ```bash
    pip install kaggle
    ```  
+## License
+This project is licensed under the MIT License.
+ 
   
   
-  
+
 
 
 
